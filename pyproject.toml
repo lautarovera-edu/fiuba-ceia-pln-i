@@ -1,0 +1,21 @@
+[project]
+name = "fiuba-ceia-pln-i"
+version = "0.1.0"
+description = "Entorno para ejecutar los notebooks de PLN I (CEIA - FIUBA)"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "ipykernel",
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "matplotlib",
+    "seaborn",
+    # Desafío 2
+    "gensim",
+    "plotly",
+    # Provee tensorflow.keras.preprocessing.text.text_to_word_sequence
+    "tensorflow",
+]
+
+[tool.uv]
+package = false
