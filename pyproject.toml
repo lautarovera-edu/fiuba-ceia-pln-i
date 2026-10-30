@@ -13,8 +13,8 @@ dependencies = [
     # Desafío 2
     "gensim",
     "plotly",
-    # Provee tensorflow.keras.preprocessing.text.text_to_word_sequence
-    "tensorflow",
+    # Provee tensorflow.keras.preprocessing.text.text_to_word_sequence; and-cuda trae las librerías CUDA para usar la GPU
+    "tensorflow[and-cuda]",
 ]
 
 [tool.uv]
