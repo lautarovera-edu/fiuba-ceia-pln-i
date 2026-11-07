@@ -5,6 +5,8 @@ description = "Entorno para ejecutar los notebooks de PLN I (CEIA - FIUBA)"
 requires-python = ">=3.12,<3.13"
 dependencies = [
     "ipykernel",
+    # Necesario para que plotly renderice figuras en Jupyter/VS Code
+    "nbformat",
     "numpy",
     "pandas",
     "scikit-learn",
