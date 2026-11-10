@@ -3,3 +3,5 @@
 gutenberg/
 vectors.tsv
 labels.tsv
+songs_dataset/
+songs_dataset.zip
